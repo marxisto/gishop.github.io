@@ -1,0 +1,129 @@
+body{
+background-image:url("C:\moi\htdocs\gishop\images/fonde.jpg");
+}
+form{
+   margin-left:30%;
+    border: 4px double;
+    border-radius:12%;
+    width: 800px;
+    right:00px;
+    height:65%;
+    text-align: left;
+    background-color:#0a0a0a;
+    border-color:#e7650f;
+    opacity:0.9;
+    position:absolute;
+    bottom:20px;
+    right:370px;
+}
+input{
+  right: 75%;
+    width: 75%;
+    height: 30px;
+       text-align: left;
+    border-bottom: groove;
+   color:#e7650f;
+   font-size:15px;
+   margin-left:10%;
+   border-bottom-color: #e7650f;
+    background-color:black;
+}
+textarea{
+     right: 75%;
+    width: 75%;
+    height: 30px;
+    text-align: left;
+    border-bottom: groove;
+   color:#e7650f;
+   font-size:15px;
+    margin-left:10%;
+    border-bottom-color: #e7650f;
+     background-color:black;
+}
+button{
+    text-align: center;
+    right: 50%;
+    width: 50%;
+    height: 35px;
+    margin-left: 25%;
+    border-radius:40px;
+    background-color:#e7650f;
+    font-size:22px;
+     animation: 5s linear infinite slidein;
+
+  }
+  strong{
+  color:#e7650f;
+  font-size: 35px;
+  border-color: #e7650f;
+  background-color:black;
+  border-radius:70px ;
+}
+a{
+  font-size:20px;
+  color:#e7650f;
+    text-decoration-line: none;
+    width: 1000px;
+    background-color:black;
+
+}
+#mul{
+  float:right;
+
+}
+h5{
+  text-align:center;
+  font-size:30px;
+  color:white;
+}
+a:hover{
+  background-color: #e7650f;
+  opacity: 0.9;
+  color:black;
+  border-radius:90px;
+}
+ button:hover{
+  cursor:pointer;
+}
+#makh{
+  border: 4px solid;
+  border-color: #e7650f;
+  border-radius: 100%;
+  height:40px;
+}
+#leu{
+margin:50%;
+}
+#loi{
+  color:#e7650f;
+}
+#gi{
+    color:black;
+  font-size: 55px;
+  border-color: #e7650f;
+  background-color:none;
+  border-radius:70px ;
+}
+#aw{
+  border: 4px solid;
+  background-color:#9ba09f;
+}
+#pil{
+  color:#e7650f;
+}
+h2{
+  color:white;
+  font-size:40px;
+}
+.select-style{
+  height:40px;
+  width:400px;
+  background-color:black;
+  color:gray;
+  border: 4px solid;
+  border-color:#e7650f;
+}
+@keyframes slidein{
+from{ transform: scaleX(0);}
+to { transform: scaleX(1)}
+}
